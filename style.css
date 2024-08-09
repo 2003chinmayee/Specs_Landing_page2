@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%
+}
+.nav{
+    padding:20px 50px;
+    font-size: 20px;
+    height:10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:30px;
+
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav i{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius: 50%;
+}
+
+
+.box1{
+    width: 85%;
+    height:50%;
+    /* background-color: blueviolet; */
+    margin:auto;
+    font-size: 2.8vw;
+    line-height: 60px;
+    padding: 26px 0px;
+ 
+    
+}
+.box1 h1{
+    font-weight: 380;
+}
+.box2{
+    width: 85%;
+    height:30%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.box2.left p{
+   font-size: 18px;
+  
+}
+.box2 .left {
+    font-size: 18px;
+    flex: 1;
+    width: 45%; 
+   
+}
+.box2 .right {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+
+}
+.box2 .right a {
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom:2px solid black ;
+    color: black;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+ 
+    
+    
+}
+
+.last{
+    height: 72%;
+
+   
+}
+.last{
+    margin-top: 10px;
+    height: 42%;
+    background-color: antiquewhite;
+    width: 100%;
+    background-image: url(./last.jpg);
+    background-size: cover;
+    background-position: 0 42%;
+}
+@media screen and (max-width:600px){
+    .nav{
+        padding:15px 30px;
+        font-size: 17px;
+        height:8vh;
+        justify-content: space-between;
+        
+    
+    }
+    .box1{
+      
+     text-align: center;
+        font-size: 6vw;
+        padding: 18px 0px;
+     
+        
+    }
+    .box2{
+       flex-direction: column-reverse;
+    }
+    .box2 .left {
+        font-size: 15px;
+        width: 100%; 
+        padding-bottom: 20px;
+       
+    }
+    .box2 .right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 23px;
+    
+    }
+
+}
